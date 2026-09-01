@@ -152,6 +152,11 @@ confirm intent with the employer early in the process.
 
 Yes. The data is public and the list is free to use, fork, and share.
 
+## Related
+
+- [H-1B Visa Sponsors by State](https://github.com/flexapply/h1b-sponsors-by-state):
+  the same FY2025 data grouped by state, with the top sponsoring employers in each one.
+
 ## About the data
 
 Source: U.S. DOL LCA Disclosure Data FY2025 Q4 (the full-year file). Counts are certified
