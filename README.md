@@ -13,7 +13,7 @@ US only and is rebuilt each quarter from the newest DOL file.
 Browse the full searchable version, with a page per company showing roles, cities, and
 wage bands: **https://flexapply.org/sponsors/companies/**
 
-## Top 100 companies that sponsor H-1B visas, by volume
+## Top 150 companies that sponsor H-1B visas, by volume
 
 | # | Company | H-1B positions (FY2025) | Top role | Top location | Median wage |
 |---|---------|----------------------|----------|--------------|-------------|
@@ -117,8 +117,58 @@ wage bands: **https://flexapply.org/sponsors/companies/**
 | 98 | [Rivian Automotive, LLC](https://flexapply.org/sponsors/company/rivian-automotive-llc/) | 110 | Mechanical Engineers | Irvine, CA | $158,913 |
 | 99 | [Eli Lilly and Company](https://flexapply.org/sponsors/company/eli-lilly-and-company/) | 110 | Software Developers | Indianapolis, IN | $136,000 |
 | 100 | [Federal Express Corporation](https://flexapply.org/sponsors/company/federal-express-corporation/) | 108 | Software Developers | Collierville, TN | $115,087 |
+| 101 | [Snowflake Inc.](https://flexapply.org/sponsors/company/snowflake-inc/) | 106 | Software Developers | Bellevue, WA | $180,710 |
+| 102 | [LinkedIn Corporation](https://flexapply.org/sponsors/company/linkedin-corporation/) | 105 | Software Developers | Sunnyvale, CA | $182,523 |
+| 103 | [INNOVA SOLUTIONS, INC.](https://flexapply.org/sponsors/company/innova-solutions-inc/) | 104 | Software Developers | Charlotte, NC | $112,923 |
+| 104 | [DoorDash, Inc.](https://flexapply.org/sponsors/company/doordash-inc/) | 104 | Software Developers | San Francisco, CA | $188,000 |
+| 105 | [Caremark LLC](https://flexapply.org/sponsors/company/caremark-llc/) | 103 | Software Developers | Irving, TX | $144,771 |
+| 106 | [University of California, San Francisco](https://flexapply.org/sponsors/company/university-of-california-san-francisco/) | 103 | Biochemists and Biophysicists | San Francisco, CA | $82,100 |
+| 107 | [ST. JUDE CHILDREN'S RESEARCH HOSPITAL](https://flexapply.org/sponsors/company/st-jude-children-s-research-hospital/) | 102 | Biochemists and Biophysicists | Memphis, TN | $86,320 |
+| 108 | [Columbia University](https://flexapply.org/sponsors/company/columbia-university/) | 102 | Medical Scientists, Except Epidemiologists | New York, NY | $79,327 |
+| 109 | [Mayo Clinic](https://flexapply.org/sponsors/company/mayo-clinic/) | 101 | Medical Scientists, Except Epidemiologists | Rochester, MN | $81,080 |
+| 110 | [Visa Technology & Operations LLC](https://flexapply.org/sponsors/company/visa-technology-operations-llc/) | 100 | Software Developers | Austin, TX | $149,240 |
+| 111 | [Cigna-Evernorth Services Inc.](https://flexapply.org/sponsors/company/cigna-evernorth-services-inc/) | 100 | Software Developers | Morris Plains, NJ | $149,209 |
+| 112 | [EFICENS SYSTEMS INC](https://flexapply.org/sponsors/company/eficens-systems-inc/) | 99 | Software Developers | Alpharetta, GA | $87,500 |
+| 113 | [American Airlines, Inc.](https://flexapply.org/sponsors/company/american-airlines-inc/) | 99 | Software Developers | Fort Worth, TX | $112,923 |
+| 114 | [State Street Bank and Trust Company](https://flexapply.org/sponsors/company/state-street-bank-and-trust-company/) | 98 | Software Developers | Boston, MA | $133,724 |
+| 115 | [HTC GLOBAL SERVICES INC.](https://flexapply.org/sponsors/company/htc-global-services-inc/) | 97 | Software Developers | Bloomington, IL | $108,534 |
+| 116 | [Expedia, Inc.](https://flexapply.org/sponsors/company/expedia-inc/) | 96 | Software Developers | Seattle, WA | $153,317 |
+| 117 | [The University of Alabama at Birmingham](https://flexapply.org/sponsors/company/the-university-of-alabama-at-birmingham/) | 96 | Medical Scientists, Except Epidemiologists | Birmingham, AL | $67,484 |
+| 118 | [Palo Alto Networks, Inc.](https://flexapply.org/sponsors/company/palo-alto-networks-inc/) | 95 | Software Developers | Santa Clara, CA | $201,747 |
+| 119 | [UNIVERSITY OF CALIFORNIA, SAN DIEGO](https://flexapply.org/sponsors/company/university-of-california-san-diego/) | 95 | Biochemists and Biophysicists | La Jolla, CA | $82,257 |
+| 120 | [The University of Southern California](https://flexapply.org/sponsors/company/the-university-of-southern-california/) | 94 | Health Specialties Teachers, Postsecondary | Los Angeles, CA | $78,208 |
+| 121 | [University of Colorado Denver](https://flexapply.org/sponsors/company/university-of-colorado-denver/) | 94 | Engineering Teachers, Postsecondary | Aurora, CO | $73,547 |
+| 122 | [Fiserv Solutions, LLC](https://flexapply.org/sponsors/company/fiserv-solutions-llc/) | 94 | Software Developers | Berkeley Heights, NJ | $131,997 |
+| 123 | [Dallas Independent School District](https://flexapply.org/sponsors/company/dallas-independent-school-district/) | 93 | Elementary School Teachers, Except Special Education | Dallas, TX | $70,270 |
+| 124 | [FCA US LLC](https://flexapply.org/sponsors/company/fca-us-llc/) | 92 | Mechanical Engineers | Auburn Hills, MI | $127,854 |
+| 125 | [INTELLECTT, INC.](https://flexapply.org/sponsors/company/intellectt-inc/) | 92 | Mechanical Engineers | Plymouth, MN | $96,314 |
+| 126 | [The University of Texas M.D. Anderson Cancer Center](https://flexapply.org/sponsors/company/the-university-of-texas-m-d-anderson-cancer-center/) | 91 | Medical Scientists, Except Epidemiologists | Houston, TX | $80,000 |
+| 127 | [Virginia Polytechnic Institute & State University](https://flexapply.org/sponsors/company/virginia-polytechnic-institute-state-university/) | 90 | Engineering Teachers, Postsecondary | Blacksburg, VA | $81,000 |
+| 128 | [Coforge Limited](https://flexapply.org/sponsors/company/coforge-limited/) | 89 | Software Developers | Dallas, TX | $108,950 |
+| 129 | [Atlassian US, Inc.](https://flexapply.org/sponsors/company/atlassian-us-inc/) | 88 | Software Developers | Mountain View, CA | $199,917 |
+| 130 | [GOLDMAN SACHS SERVICES LLC](https://flexapply.org/sponsors/company/goldman-sachs-services-llc/) | 87 | Software Developers | Dallas, TX | $144,000 |
+| 131 | [Boston Consulting Group, Inc.](https://flexapply.org/sponsors/company/boston-consulting-group-inc/) | 87 | Management Analysts | New York, NY | $190,008 |
+| 132 | [UBS Business Solutions US LLC](https://flexapply.org/sponsors/company/ubs-business-solutions-us-llc/) | 87 | Software Developers | Weehawken, NJ | $145,000 |
+| 133 | [Icahn School of Medicine at Mount Sinai](https://flexapply.org/sponsors/company/icahn-school-of-medicine-at-mount-sinai/) | 87 | Medical Scientists, Except Epidemiologists | New York, NY | $93,600 |
+| 134 | [ZS Associates, Inc.](https://flexapply.org/sponsors/company/zs-associates-inc/) | 86 | Operations Research Analysts | Princeton, NJ | $182,850 |
+| 135 | [Hewlett Packard Enterprise Company](https://flexapply.org/sponsors/company/hewlett-packard-enterprise-company/) | 85 | Software Developers | San Jose, CA | $157,500 |
+| 136 | [Emory University](https://flexapply.org/sponsors/company/emory-university/) | 85 | Medical Scientists, Except Epidemiologists | Atlanta, GA | $68,964 |
+| 137 | [Lowe's Companies, Inc.](https://flexapply.org/sponsors/company/lowe-s-companies-inc/) | 85 | Software Developers | Charlotte, NC | $133,536 |
+| 138 | [Caterpillar Inc.](https://flexapply.org/sponsors/company/caterpillar-inc/) | 84 | Software Developers | Chillicothe, IL | $114,566 |
+| 139 | [University of Minnesota](https://flexapply.org/sponsors/company/university-of-minnesota/) | 83 | Engineering Teachers, Postsecondary | Minneapolis, MN | $83,884 |
+| 140 | [Thermo Fisher Scientific, Inc.](https://flexapply.org/sponsors/company/thermo-fisher-scientific-inc/) | 83 | Software Developers | St. Paul, MN | $115,627 |
+| 141 | [Harvard University](https://flexapply.org/sponsors/company/harvard-university/) | 82 | Biological Scientists, All Other | Cambridge, MA | $79,711 |
+| 142 | [The University of Chicago](https://flexapply.org/sponsors/company/the-university-of-chicago/) | 82 | Medical Scientists, Except Epidemiologists | Chicago, IL | $78,000 |
+| 143 | [Micron Technology, Inc.](https://flexapply.org/sponsors/company/micron-technology-inc/) | 80 | Electrical Engineers | Boise, ID | $144,914 |
+| 144 | [V-Soft Consulting Group, INC](https://flexapply.org/sponsors/company/v-soft-consulting-group-inc/) | 80 | Software Developers | Charlotte, NC | $102,000 |
+| 145 | [General Hospital Corporation](https://flexapply.org/sponsors/company/general-hospital-corporation/) | 80 | Medical Scientists, Except Epidemiologists | Boston, MA | $74,318 |
+| 146 | [CitiusTech Inc.](https://flexapply.org/sponsors/company/citiustech-inc/) | 80 | Software Developers | Princeton, NJ | $108,000 |
+| 147 | [Netflix, Inc.](https://flexapply.org/sponsors/company/netflix-inc/) | 80 | Software Developers | Los Gatos, CA | $264,514 |
+| 148 | [Yale University](https://flexapply.org/sponsors/company/yale-university/) | 80 | Medical Scientists, Except Epidemiologists | New Haven, CT | $76,245 |
+| 149 | [Populus Group LLC](https://flexapply.org/sponsors/company/populus-group-llc/) | 79 | Software Developers | Chillicothe, IL | $131,040 |
+| 150 | [California Institute of Technology](https://flexapply.org/sponsors/company/california-institute-of-technology/) | 79 | Molecular and Cellular Biologists | Pasadena, CA | $82,400 |
 
-This is the top 100. The full list of all 9,867 H-1B sponsoring companies is in
+This is the top 150. The full list of all 9,867 H-1B sponsoring companies is in
 [`data/h1b-sponsors-fy2025.csv`](data/h1b-sponsors-fy2025.csv)
 (and [`.json`](data/h1b-sponsors-fy2025.json)). Fork it, filter it, build on it.
 
@@ -140,7 +190,7 @@ check the data before you spend time applying.
 ### Which companies sponsor the most H-1B visas?
 
 By FY2025 filing volume the largest H-1B sponsors are Amazon.com Services LLC, COGNIZANT TECHNOLOGY SOLUTIONS US CORP, INFOSYS LIMITED, Microsoft Corporation, Ernst & Young U.S. LLP, followed by the rest of the
-top 100 in the table above.
+top 150 in the table above.
 
 ### Do these companies sponsor H-1B for international students on OPT?
 
@@ -151,6 +201,13 @@ confirm intent with the employer early in the process.
 ### Is this list free?
 
 Yes. The data is public and the list is free to use, fork, and share.
+
+## Does a specific company sponsor H-1B?
+
+Straight yes/no answers for the 400 largest sponsors, with filing counts, are in
+[`does-these-companies-sponsor-h1b.md`](does-these-companies-sponsor-h1b.md). For any of
+the 9,867 companies in the dataset, search the CSV or open its page at
+https://flexapply.org/sponsors/companies/.
 
 ## Related
 
@@ -165,7 +222,7 @@ a step in the process, not a guarantee that a specific role is open today, so re
 counts as a signal of who sponsors and how much, not as a live job board.
 
 Maintained by [FlexApply](https://flexapply.org) and updated quarterly when DOL posts new data.
-Last updated: 2026-09-01.
+Last updated: 2026-09-20.
 
 ## License
 

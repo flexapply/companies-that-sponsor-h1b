@@ -19,7 +19,8 @@ SITE = "https://flexapply.org"
 SRC = Path.home() / "flexapply/tools/sponsor-data/out/companies.json"
 SUMMARY = Path.home() / "flexapply/tools/sponsor-data/out/summary.json"
 HERE = Path(__file__).parent
-TOP_N = 100  # rows shown in the README table; full set goes to data/
+TOP_N = 150   # rows shown in the README table; full set goes to data/
+FAQ_N = 400   # companies given a "Does X sponsor H-1B?" Q&A entry (high-intent long-tail)
 
 FY = "FY2025"  # ponytail: single source, bump when sponsor-data moves to a new DOL year
 
@@ -57,6 +58,41 @@ def main():
             ])
     (HERE / "data" / f"h1b-sponsors-{FY.lower()}.json").write_text(
         json.dumps(companies, indent=None, separators=(",", ":")))
+
+    # --- "Does X sponsor H-1B?" long-tail Q&A page ---
+    # Targets the exact high-intent query pattern ("does <company> sponsor h1b")
+    # and the Q&A shape AI answer engines cite. Each answer deep-links the money page.
+    faq_entries = []
+    for c in companies[:FAQ_N]:
+        n, lcas = c["name"], c.get("lcas", 0)
+        role = first(c.get("top_roles", []), "role")
+        city = first(c.get("top_cities", []), "city")
+        url = f'{SITE}/sponsors/company/{c["slug"]}/'
+        role_bit = f" Most were for {role}" + (f" in {city}." if city else ".") if role else ""
+        faq_entries.append(
+            f"### Does {n} sponsor H-1B visas?\n\n"
+            f"Yes. {n} filed {lcas:,} certified H-1B labor condition applications in "
+            f"{FY} with the U.S. Department of Labor.{role_bit} "
+            f"See roles, cities, and wage bands: [{n} H-1B sponsorship]({url})\n"
+        )
+    faq_doc = f"""# Does This Company Sponsor H-1B Visas? ({FY})
+
+Straight yes/no answers for {FAQ_N:,} of the largest H-1B sponsors in the United States,
+based on official U.S. Department of Labor {FY} filing data. If a company filed certified
+H-1B labor condition applications, it sponsors H-1B, and the count tells you how much.
+
+Searching for a company not listed here? The full set of {total:,} sponsors is in
+[`data/h1b-sponsors-{FY.lower()}.csv`](data/h1b-sponsors-{FY.lower()}.csv), and every
+company has a detail page at {SITE}/sponsors/companies/.
+
+{chr(10).join(faq_entries)}
+---
+
+Data: U.S. DOL LCA Disclosure Data {FY}. A certified LCA is the standard public proxy for
+H-1B sponsorship; it shows a company sponsors and at what volume, not that a specific role
+is open today. Maintained by [FlexApply]({SITE}). Last updated: {today}.
+"""
+    (HERE / "does-these-companies-sponsor-h1b.md").write_text(faq_doc)
 
     # --- README ---
     rows = []
@@ -124,6 +160,13 @@ confirm intent with the employer early in the process.
 ### Is this list free?
 
 Yes. The data is public and the list is free to use, fork, and share.
+
+## Does a specific company sponsor H-1B?
+
+Straight yes/no answers for the {FAQ_N} largest sponsors, with filing counts, are in
+[`does-these-companies-sponsor-h1b.md`](does-these-companies-sponsor-h1b.md). For any of
+the {total:,} companies in the dataset, search the CSV or open its page at
+{SITE}/sponsors/companies/.
 
 ## Related
 
